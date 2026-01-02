@@ -12,6 +12,10 @@ from task.app.main import run
 
 run(
     # TODO:
+    deployment_name="claude-sonnet-4@20250514",
+    n=3,  # Set number of choices to generate (1-5)
+    print_request=False,  # Switch to False if you do not want to see the request in console
+    print_only_content=False,  # Switch to True if you want to see only content from response
     #  1. Provide `deployment_name` with model from the list above👆
     #  2. Use `n` parameter with value in range from 1 to 5!
 )
